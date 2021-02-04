@@ -1,0 +1,443 @@
+* {
+  box-sizing: border-box;
+}
+
+/* .page-2, */
+/* .page-3  */
+/* .page-1  */
+.page-0 {
+  width: 100vw;
+  height: 100vh;
+}
+.page-0 {
+  background-image: url(./assets/page-1.jpg);
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.page-1 {
+  background-color: #e1d2c8;
+  background-size: cover;
+}
+
+.page-2 {
+  background-color: #ebe2db;
+  background-size: cover;
+}
+
+.page-3 {
+  background-color: #e1d2c8;
+  background-size: cover;
+}
+
+.page-4 {
+  background-color: #ebe2db;
+}
+
+.contents {
+  width: 80%;
+}
+
+#profile,
+#hobby,
+#work,
+#contact {
+  position: relative;
+}
+
+p {
+  font-size: 2vmin;
+  line-height: 5rem;
+  color: #19282b;
+}
+/* ーーーーーーーーーーーーーーーーーー h e a d e r ーーーーーーーーーーーーーーー */
+.navbar {
+  padding: 0%;
+}
+
+#mainNav {
+  height: 7%;
+  background-color: #8ab0c2;
+}
+
+.NAV,
+#navbarResponsive {
+  width: 100%;
+  height: 100%;
+}
+
+#navbarResponsive ul {
+  height: 100%;
+}
+
+#navbarResponsive ul li {
+  margin: auto;
+}
+.nav-item {
+  height: 100%;
+  line-height: 60px;
+}
+
+.nav-item:hover {
+  background-color: #cfeefd;
+  margin: auto;
+}
+
+header a {
+  font-size: 20px;
+  font-weight: bold;
+}
+.navbar-brand {
+  height: 100%;
+  line-height: 60px;
+  font-size: 25px;
+  opacity: 0.7;
+}
+img {
+  border-radius: 5px;
+}
+
+/* ーーーーーーーーーーーーーー　ス　ラ　イ　ド　ーーーーーーーーーーーーーーーー */
+.slide,
+.sub-slide {
+  display: none;
+}
+
+.active,
+.sub-active,
+.open {
+  display: block;
+}
+.slides,
+.sub-slide {
+  /* width: 100%;
+  height: 100%; */
+}
+
+/* ーーーーーーーーーーーーーーーー　p r o f i l e ーーーーーーーーーーーーーーーーーーー */
+
+.title1 {
+  padding: 0.15em 0.5em; /*上下 左右の余白*/
+  color: #19282b; /*文字色*/
+  background: transparent; /*背景透明に*/
+  border-left: solid 7px #cc7695; /*左線*/
+}
+
+.myName1 {
+  border-bottom: #cc7695 double 6px;
+}
+/* .icon::before {
+  display: inline-block;
+  margin-right: 0.5em;
+  font-family: fontawesome;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.github-icon::before {
+  color: #27577e;
+  font-family: fontawesome;
+  content: "\f09b";
+  margin-right: 0.5em;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.facebook-icon::before {
+  color: #305097;
+  font-family: fontawesome;
+  content: "\f082";
+  margin-right: 0.5em;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+/* ーーーーーーーーーーーーーーーーーー h o b b y ーーーーーーーーーーーーーーー */
+
+.title {
+  font-size: 40px;
+  height: 60px;
+  padding: 0px;
+  width: 80%;
+  color: #666666; /*文字色*/
+  border: 3px solid #cc7695; /*線の太さ・色*/
+  background-color: #fff; /*背景色*/
+  box-shadow: -2px 5px 5px #e8d3c7; /*影*/
+  border-radius: 20px; /*角の丸み*/
+}
+#hobby0,
+#hobby1,
+#hobby2,
+#hobby3,
+#hobby4 {
+  height: 100%;
+}
+
+.hobby2-contents {
+  height: 100%;
+}
+
+.sub-contents1,
+.sub-contents2 {
+  height: fit-content;
+}
+.pc1-bold {
+  font-weight: bold;
+}
+
+.sub-contents2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.pic-slide {
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+  color: #5e6f84;
+}
+.change-btn {
+  font-size: 15px;
+}
+
+.prev-btn {
+  display: none;
+  float: left;
+}
+.next-btn {
+  float: right;
+}
+
+.slides {
+  padding: 0%;
+  margin: auto;
+  height: fit-content;
+  width: 90%;
+}
+.index-btn {
+  display: inline-block;
+  color: #fff;
+  background-color: #cc7695;
+  width: 50px;
+  padding: 6px 0;
+  margin: 0 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.pet-contents3 img {
+  width: 60%;
+  height: 60%;
+}
+
+/* ーーーーーーーーーーーーーーーーーー w o r k ーーーーーーーーーーーーーーー */
+#work {
+  /* height: 100%; */
+}
+
+.work-contents {
+  /* height: 100%; */
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.work-contents h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.work-contents h2 {
+  font-size: 30px;
+}
+
+.work-box {
+  font-size: 20px;
+  margin: auto;
+  width: 70%;
+}
+
+.work-box-image {
+  background-color: #fff;
+  line-height: 180px;
+  color: #000;
+  width: 100%;
+  transition: all 0.3s;
+  margin: 0px;
+}
+
+.work-box-image:hover {
+  background-color: #19282b;
+  color: white;
+}
+
+/* ーーーーーーーーーーーーーーー　コ　ン　タ　ク　ト　ーーーーーーーーーーーーーーーーー */
+.contact2:hover {
+  border: #eb6100;
+  border-radius: 0.5px;
+}
+
+/* ーーーーーーーーーーーーーーー BootStrap (lg) ーーーーーーーーーーーーーー */
+@media (max-width: 991px) {
+  * {
+    height: fit-content;
+  }
+  .contents {
+    width: 90%;
+  }
+
+  #me {
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  /* hobby */
+
+  #hobby-nav {
+    padding: 0;
+  }
+  #hobby-nav p {
+    font-size: 40px;
+  }
+  .hobby-box {
+    padding: 0;
+  }
+  .diy-contents2 {
+    display: none;
+  }
+
+  .hobby-contents {
+    height: 10%;
+  }
+  .hobby-contents2 {
+    height: 80%;
+  }
+  .pet-contents1 {
+    height: 15%;
+  }
+  .pet-contents2 {
+    height: 30%;
+  }
+  .pet-contents3 {
+    height: 30%;
+  }
+  .pet-contents2 img,
+  .diy-contents2 img {
+    width: 200px;
+    height: 200px;
+  }
+
+  /* work */
+}
+
+/* ーーーーーーーーーーーーーーー BootStrap (md) ーーーーーーーーーーーーーー */
+@media (max-width: 767px) {
+  p {
+    font-size: 3vmin;
+    line-height: 3rem;
+  }
+}
+
+/* ーーーーーーーーーーーーーーー BootStrap (sm) ーーーーーーーーーーーーーー */
+@media (max-width: 575px) {
+  p {
+    font-size: 4vmin;
+    line-height: 4rem;
+  }
+
+  /* hobby */
+  #hobby-nav p {
+    font-size: 25px;
+  }
+
+  .pet-contents2 {
+    display: none;
+  }
+
+  /* work */
+  .page-3 {
+    /* height: 1506px; */
+  }
+
+  #contact div {
+    padding: 0;
+  }
+}
+
+/* ーーーーーーーーーーーーーーーーボタンーーーーーーーーーーーーーーー */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%; /*rem算出をしやすくするために*/
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+.hobby-btn {
+  overflow: hidden;
+
+  padding: 1.5rem 6rem;
+
+  color: #fff;
+  border-radius: 0;
+  background: #000;
+}
+
+.hobby-btn span {
+  position: relative;
+  color: white;
+}
+
+.hobby-btn:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100px;
+  height: 100px;
+
+  content: "";
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: translateX(-80%) translateY(-25px);
+  transform: translateX(-80%) translateY(-25px);
+
+  border-radius: 50%;
+  background: #cc7695;
+}
+
+.hobby-btn:hover:before {
+  width: 400px;
+  height: 400px;
+
+  -webkit-transform: translateX(-1%) translateY(-175px);
+
+  transform: translateX(-1%) translateY(-175px);
+}

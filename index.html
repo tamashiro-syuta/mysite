@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./a.css">
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <title>自己紹介サイト</title>
+  </head>
+
+  <body>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container NAV">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                        <li class="nav-item pr-5"><a class="nav-link js-scroll-trigger" href="#profile">Profile</a></li>
+                        <li class="nav-item pr-5"><a class="nav-link js-scroll-trigger" href="#hobby">Hobby</a></li>
+                        <li class="nav-item pr-5"><a class="nav-link js-scroll-trigger" href="#work">Works</a></li>
+                        <li class="nav-item pr-5"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+      </header>
+
+      <main>
+        <!-- <div class="page-0">
+            <section id="top">
+              <div class="contents"></div>
+            </section>
+        </div> -->
+        <!-- ---------------------------------------　プ　ロ　フ　ィ　ー　ル　------------------------------------------ -->
+          <div class="page-1 pt-5">
+              <section id="profile">
+                  <div class="contents container-fluid p-5">
+                    <div class="a pt-5">
+                        <h1 class="title1 display-4 font-weight-bold mb-4 mt-5">PROFILE</h1>
+                    </div>
+                    <div class="myName">
+                        <h1 class="myName1 my-4 py-3">玉城　秀大</h1>
+                    </div>
+                    <div class="details row">
+                        <div class="detail1 col-12 col-lg-6 pt-3">
+                            <p>糸満市出身。沖縄国際大学の就活と卒論に追われている３年次。趣味はDIYとペットと遊ぶ事とギターと音楽観賞。邦ロックを中心に浅く広く聞いてます。最近はマカロニえんぴつとsumikaをよく聞いてます。<br>卒論ではSwiftで模合支援アプリを開発中ですが、就活を言い訳に最近は全く触ってません（笑）</p>
+                        </div>
+                        <div class="detail2 col-12 col-lg-6">
+                            <img id="me" src="./assets/profile/me1.png" class="w-75 mx-auto">
+                        </div>
+                    </div>
+                  </div>
+              </section>
+          </div>
+
+          <!-- --------------------------------------------　趣　味　--------------------------------------------- -->
+          <div class="page-2">
+            <section id="hobby" class="pt-5">
+                <div class="hobby-contents1 contents mx-auto row">
+                    <div id="hobby-nav" class="mx-auto col-lg-4 col-md-12 row pt-5">
+                        <p class="display-3 font-weight-bold col-lg-12 col-3 w-75 m-5 title1">Hobby</p>
+                        <div class="hobby-box container col-lg-12 col-3 w-75 p-5">
+                            <a class="btn hobby-btn w-75 diy"><span>DIY</span></a>
+                        </div>
+                        <div class="hobby-box container col-lg-12 col-3 w-75 p-5">
+                            <a class="btn hobby-btn w-75 pet"><span>Pet</span></a>
+                        </div>
+                        <div class="hobby-box container col-lg-12 col-3 w-75 p-5">
+                            <a  class="btn hobby-btn w-75 aaa"><span>aaa</span></a>
+                        </div>
+                    </div>
+                    <div class="hobby-contents2 col-lg-8 col-md-12 pt-5 mb-5 border border-dark">
+                        <div id="hobby0" class="slide">
+                            <div class="container">
+                               <p class="text-center">クリックしてください</p>
+                            </div>
+                        </div>
+                        <div id="hobby1" class="slide active">
+                            <div class="sub-contents0 d-flex align-items-start">
+                                <p class="title text-center col-12">DIY</p>
+                            </div>
+                            <div class="sub-contents1">
+                                <p class="p-2">去年から始めた趣味。<br>てきとーに作っているので、途中で設計変えたり、切る長さ間違えたりと、ありきたりばったりな感じで楽しく作ってます。<br>次は庭にベンチ作る予定です。写真のものはディアウォールを使った壁に傷を付けない壁収納です。</p>
+                            </div>
+                            <div class="sub-contents2">
+                                <div class="pic-slide row pt-5">
+                                    <p class="h2 col-12 align-flex-center">壁面収納ができるまで...</p>
+                                    <div class="d-flex justify-content-around col-2">
+                                       <div class="change-btn prev-btn align-self-center">← 前へ</div>
+                                    </div>
+                                    <ul class="slides col-8">
+                                        <li class="sub-slide sub-active"><img class=" align-items-center mx-auto" src="assets/hobby/hobby1/bottom1.jpg"></li>
+                                        <li class="sub-slide h-50"><img class=" align-items-center mx-auto" src="assets/hobby/hobby1/bottom2.jpg"></li>
+                                        <li class="sub-slide"><img class=" align-items-center mx-auto" src="assets/hobby/hobby1/bottom3.jpg"></li>
+                                        <li class="sub-slide"><img class=" align-items-center mx-auto" src="assets/hobby/hobby1/bottom4.jpg"></li>
+                                        <li class="sub-slide"><img class=" align-items-center mx-auto" src="assets/hobby/hobby1/bottom5.jpg"></li>
+                                    </ul>
+                                    <div class="d-flex justify-content-around col-2">
+                                        <div class="change-btn next-btn align-self-center">次へ →</div>
+                                    </div>
+                                   <div class="d-flex justify-content-center p-3 col-12">
+                                     <div class="index-btn">1</div>
+                                     <div class="index-btn">2</div>
+                                     <div class="index-btn">3</div>
+                                     <div class="index-btn">4</div>  
+                                     <div class="index-btn">5</div> 
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="hobby2" class="slide">
+                            <div class="diy-contents0 d-flex align-items-start">
+                                <p class="title text-center col-12">Pet</p>
+                            </div>
+                            <div class="sub-contents1">
+                                <p class="p-2">＜名前＞</p><p class="h2">じのん</p>
+                                <p class="p-2">＜犬種＞</p><p class="h2">ミニチュアダックスフント</p>
+                                <p class="p-2">＜年齢＞</p><p class="h2">４歳</p>
+                            </div>
+                            <div class="sub-contents2">
+                                <div class="pic-slide row pt-5">
+                                    <p class="h2 col-12 align-flex-center">個人的にお気に入りな写真</p>
+                                    <div class="d-flex justify-content-around col-2">
+                                       <div class="change-btn prev-btn align-self-center">← 前へ</div>
+                                    </div>
+                                    <ul class="slides col-8 p-2">
+                                        <li class="sub-slide sub-active"><img class=" align-items-center mx-auto" src="assets/hobby/hobby2/bottom1.jpeg"></li>
+                                        <li class="sub-slide h-50"><img class=" align-items-center mx-auto" src="assets/hobby/hobby2/bottom2.jpeg"></li>
+                                        <li class="sub-slide"><img class=" align-items-center mx-auto" src="assets/hobby/hobby2/bottom3.jpeg"></li>
+                                        <li class="sub-slide"><img class=" align-items-center mx-auto" src="assets/hobby/hobby2/bottom4.jpeg"></li>
+                                        <li class="sub-slide"><img class=" align-items-center mx-auto" src="assets/hobby/hobby2/bottom5.jpeg"></li>
+                                    </ul>
+                                    <div class="d-flex justify-content-around col-2">
+                                        <div class="change-btn next-btn align-self-center">次へ →</div>
+                                    </div>
+                                   <div class="d-flex justify-content-center p-3 col-12">
+                                     <div class="index-btn">1</div>
+                                     <div class="index-btn">2</div>
+                                     <div class="index-btn">3</div>
+                                     <div class="index-btn">4</div>  
+                                     <div class="index-btn">5</div>  
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="hobby3" class="slide">
+                            <div class="container">
+                                <p class="text-center">あいうえお</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <!-- ーーーーーーーーーーーーーーーーーーーーーー　ワ　ー　ク　ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー -->
+          <div class="page-3">
+            <section id="work">
+                <div class="work-contents contents mx-auto p-4">
+                    <h1 class="title1 my-5">WORK</h1>
+                    <div class="work-box-wrapper row">
+                        <div class="work-box col-sm-12 col-md-6 pb-5 pr-5">
+                          <h2>aaa</h2>
+                          <div class="work-box-image text-center">
+                            comming soon...
+                          </div>
+                        </div>
+                        <div class="work-box col-sm-12 col-md-6 pb-5 pr-5">
+                          <h2>aaa</h2>
+                          <div class="work-box-image text-center">
+                            comming soon...
+                          </div>
+                        </div>
+                        <div class="work-box col-sm-12 col-md-6 pb-5 pr-5">
+                          <h2>aaa</h2>
+                          <div class="work-box-image text-center">
+                            comming soon...
+                          </div>
+                        </div>
+                        <div class="work-box col-sm-12 col-md-6 pb-5 pr-5">
+                          <h2>aaa</h2>
+                          <div class="work-box-image text-center">
+                            comming soon...
+                          </div>
+                        </div>
+                        <div class="work-box col-sm-12 col-md-6 pb-5 pr-5">
+                            <h2>aaa</h2>
+                            <div class="work-box-image text-center">
+                                comming soon...
+                            </div>
+                        </div>
+                        <div class="work-box col-sm-12 col-md-6 pb-5 pr-5">
+                            <h2>aaa</h2>
+                            <div class="work-box-image text-center">
+                                comming soon...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <!-- ーーーーーーーーーーーーーーーーーーーーー　コ　ン　タ　ク　ト　ーーーーーーーーーーーーーーーーーーーーーーーーーー -->
+        <div class="page-4">
+            <section id="contact">
+                <div class="contents align-items-center p-5 row mx-auto">
+                    <div id="contact2" class="row justify-content-center mx-auto p-5 col-12 col-lg-4">
+                        <div id="contact-btn" class="col-lg-4 text-center">
+                            <h2 class="mt-0">Contact</h2>
+                            <hr class="divider my-4" />
+                            <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+                            <p class="h3 pt-3">Click!!!</p>
+                        </div>
+                    </div>
+                    <div class="form row justify-content-center col-12 col-lg-8 slide px-5">
+                        <form class="col-8 pb-5 mx-auto">
+                            <!--氏名-->
+                            <div class="form-row">
+                                <div class="col-md-12 mb-3">
+                                    <label for="inputName">名前</label>
+                                    <input type="text" class="form-control" id="inputName" placeholder="名前">
+                                </div>
+                            </div>
+                            <!--/氏名-->
+                            
+                            <!--Eメール-->
+                            <div class="form-group row">
+                                <div class="col-sm-12">
+                                <label for="inputEmail" class="col-form-label">Eメール</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Eメール">
+                                </div>
+                            </div>
+                            <!--/Eメール-->
+                            
+                            <!--内容-->
+                            <div class="form-group mb-3">
+                                <label for="Textarea">お問い合わせ内容</label>
+                                <textarea class="form-control" id="Textarea" rows="3" placeholder="その他、質問などありましたら"></textarea>
+                            </div>
+                            <!--/内容-->
+                            
+                            <!--ボタンブロック-->
+                            <div class="form-group row">
+                                <div class="col-sm-12">
+                                    <button type="submit" class="btn btn-primary btn-block">送信</button>
+                                </div>
+                            </div>
+                            <!--/ボタンブロック-->
+                            
+                        </form>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </main>
+    
+    <fotter></fotter>
+    
+    <script src="./js/a.js"></script>
+</body>
+
+
+
+</html>
